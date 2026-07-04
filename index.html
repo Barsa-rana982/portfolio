@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Barsa Rana — Data Science Portfolio</title>
+  <title>Barsa Rana | Data Science Portfolio</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet" />
@@ -492,27 +492,24 @@
 
         <div class="project-card">
           <div class="project-icon"><i class="fa-solid fa-shield-halved"></i></div>
-          <div>
-            <h3>AI-Based Phishing Detection System</h3>
-            <span class="badge-team"><i class="fa-solid fa-users"></i> Team Project</span>
-          </div>
+          <h3>AI-Based Phishing Detection System</h3>
           <p>
-            Multi-modal phishing detection system integrating XGBoost, Random Forest, and a
-            locally-deployed Llama 3.2 (via Ollama) for LLM-assisted URL and email reasoning.
-            Reduced reliance on rule-based heuristics through hybrid ML + GenAI inference.
-            SHAP explainability surfaces model logic for non-technical stakeholders via an
-            interactive Streamlit dashboard.
+            A phishing URL and email analyser fusing three independent detection layers:
+            17 rule-based static signals (entropy, typosquatting, Levenshtein distance),
+            an XGBoost model with SHAP explainability, and LLM semantic reasoning
+            (Llama 3.2 via Ollama, or OpenAI). Delivered as an interactive Streamlit app
+            with per-URL risk scoring and downloadable reports.
           </p>
           <div class="project-stack">
             <span class="tag">XGBoost</span>
-            <span class="tag">Random Forest</span>
-            <span class="tag">Llama 3.2</span>
             <span class="tag">SHAP</span>
-            <span class="tag">Streamlit</span>
+            <span class="tag">Llama 3.2</span>
             <span class="tag">Ollama</span>
+            <span class="tag">Streamlit</span>
+            <span class="tag">Python</span>
           </div>
           <div class="project-links">
-            <a href="https://github.com/Barsa-rana982" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> GitHub</a>
+            <a href="https://github.com/Barsa-rana982/AI-Based-Phishing-Detection-System" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> GitHub</a>
           </div>
         </div>
 
@@ -520,20 +517,21 @@
           <div class="project-icon"><i class="fa-solid fa-arrows-spin"></i></div>
           <h3>Telco Customer Churn Prediction</h3>
           <p>
-            Built and evaluated ML models (Logistic Regression, Random Forest, XGBoost) to predict
-            customer churn, enabling targeted retention strategies that reduce revenue loss.
-            Applied feature engineering, EDA, and statistical analysis in Python to identify
-            key churn drivers and improve model performance.
+            Predicted churn on the IBM Telco dataset (~7,000 customers) using Logistic Regression,
+            Random Forest, KNN, and an ensemble Voting Classifier, reaching 0.83 ROC-AUC with
+            0.78 recall for catching at-risk customers. Confirmed key churn drivers
+            (month-to-month contracts, short tenure, and high monthly charges) with Chi-Square
+            and Welch's T-tests.
           </p>
           <div class="project-stack">
             <span class="tag">Python</span>
             <span class="tag">Scikit-learn</span>
-            <span class="tag">XGBoost</span>
+            <span class="tag">SciPy</span>
             <span class="tag">Pandas</span>
-            <span class="tag">Matplotlib</span>
+            <span class="tag">Seaborn</span>
           </div>
           <div class="project-links">
-            <a href="https://github.com/Barsa-rana982" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> GitHub</a>
+            <a href="https://github.com/Barsa-rana982/Telco-churn-prediction" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> GitHub</a>
           </div>
         </div>
 
@@ -541,19 +539,22 @@
           <div class="project-icon"><i class="fa-solid fa-heart-pulse"></i></div>
           <h3>Cardiovascular Disease Analytics</h3>
           <p>
-            Built interactive Tableau dashboards and conducted exploratory data analysis to surface
-            trends in cardiovascular risk factors. Findings support data-driven clinical
-            decision-making by translating complex health data into clear visual insights.
+            Analysed cardiovascular disease outcomes across Australian Primary Health Networks
+            using AIHW 2017–18 data. Applied linear and logistic regression to model how
+            socioeconomic and lifestyle risk factors drive CVD mortality and hospitalisation,
+            visualised through an interactive Tableau dashboard.
           </p>
           <div class="project-stack">
             <span class="tag">Tableau</span>
             <span class="tag">Python</span>
-            <span class="tag">EDA</span>
+            <span class="tag">Scikit-learn</span>
+            <span class="tag">statsmodels</span>
             <span class="tag">Pandas</span>
             <span class="tag">Seaborn</span>
           </div>
           <div class="project-links">
-            <a href="https://github.com/Barsa-rana982" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> GitHub</a>
+            <a href="https://github.com/Barsa-rana982/TDP_CVD-Data-Science" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> GitHub</a>
+            <a href="https://public.tableau.com/views/TDPHOSPITALISATION11/SocioeconomicImpact?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link" target="_blank" rel="noopener"><i class="fa-solid fa-chart-column"></i> Live Dashboard</a>
           </div>
         </div>
 
@@ -625,7 +626,7 @@
         <div class="edu-card">
           <div class="edu-icon"><i class="fa-solid fa-laptop-code"></i></div>
           <div>
-            <div class="edu-degree">Bachelor of Technology — Computer Science &amp; Engineering</div>
+            <div class="edu-degree">Bachelor of Technology, Computer Science &amp; Engineering</div>
             <div class="edu-school">M.D. University, India</div>
             <div class="edu-year">2016 – 2020</div>
           </div>
@@ -642,7 +643,7 @@
         <div class="section-line"></div>
         <p>
           I'm open to graduate roles, internships, and collaborative projects in
-          Data Science, AI, and Analytics. Feel free to reach out — I'd love to connect!
+          Data Science, AI, and Analytics. Feel free to reach out. I'd love to connect!
         </p>
         <div class="contact-links">
           <a class="contact-link email" href="mailto:barsarana55@gmail.com" onclick="copyEmail(event)">
